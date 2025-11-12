@@ -18,7 +18,7 @@ st.write("Explore and compare solar energy metrics across countries.")
 st.sidebar.header("Select Dataset")
 
 # Example countries — update these once you have cleaned CSVs
-countries = ["Benin", "Sierra Leone", "Togo"]
+countries = ["Benin", "SierraLeone", "Togo"]
 selected_country = st.sidebar.selectbox("Choose a country", countries)
 
 # ---- LOAD DATA ----
